@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <img class="nav__menu-btn" src="./recursos/menu.svg" alt="">
+            <a href="" class="nav__logo">
+                <img src="./recursos/logo.svg" alt="">
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#home">Home</a></li>
+                    <li class="nav__item"><a href="#products">Products</a></li>
+                    <li class="nav__item"><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="nav__shop-icon">
+                <div class="nav__shop-icon--noti">0</div>
+                <img src="./recursos/shopping.svg" alt="">
+            </div>
+        </nav>
+
+     
+    </header>
+
+      <!-- inicio modal navbar -->
+
+      <div class="modal-navbar__background" >
+        <nav class="modal-navbar">
+            <img class="modal-navbar__close-icon" src="./recursos/close.svg" alt="">
+            <ul class="navbar-items">
+                <li><a href="#home" class="modal-navbar__link">Home</a></li>
+                <li><a href="#products" class="modal-navbar__link">Products</a></li>
+                <li><a href="#about" class="modal-navbar__link">About</a></li>
+            </ul>
+        </nav>
+       </div>
+
+       <!-- inicio modal navbar -->
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__img-bg">
+                <img class="home__img" src="./recursos/Imagenes/ejm01.webp" alt="">
+            </div>
+            <div class="home__details">
+                <h1 class="home__title">New Xiaomi Note 10<br>124GB Edition</h1>
+                <p class="home__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+                <span class="home__price">$200.00</span>
+                <div class="home__btn">
+                    <button class="btn home__button">Add Product</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="products__container">
+                <article class="product__card">
+                    <div class="product__img-bg">
+                        <img class="product__img" src="./recursos/Imagenes/ejm02.webp" alt="">
+                    </div>
+                    <div class="product__details">
+                        <h2 class="product__name">Poco M4 - 4GB/32GB</h2>
+                        <div class="price&add">
+                            <p class="product__price">$120</p>
+                            <button class="button product__add-btn" alt=""><img src="./recursos/add.svg" alt=""></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product__card">
+                    <div class="product__img-bg">
+                        <img class="product__img" src="./recursos/Imagenes/ejm03.webp" alt="">
+                    </div>
+                    <div class="product__details">
+                        <h2 class="product__name">Poco C2 - 6GB/64GB</h2>
+                        <div class="product__price&add">
+                            <p class="product__price">$150</p>
+                            <button class="button product__add-btn" alt=""><img src="./recursos/add.svg" alt=""></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product__card">
+                    <div class="product__img">
+                        <img class="product__img" src="./recursos/Imagenes/ejm04.webp" alt="">
+                    </div>
+                    <div class="product__details">
+                        <h2 class="product__name">Redmi 9C 2GB/16GB</h2>
+                        <div class="price&add">
+                            <p class="product__price">$80</p>
+                            <button class="button product__add-btn" alt=""><img src="./recursos/add.svg" alt=""></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer__section" id="about">
+        <div class="footer__about grid">
+        <div class="footer__container">
+            <h2 class="footer__title">Dirección</h2>
+            <ul class="footer__list">
+                <li>Pimentel - Perú</li>
+            </ul>
+        </div>
+        <div class="footer__container">
+            <h2 class="footer__title">Servicios</h2>
+            <ul>
+                <li><a class="footer__link" href="">Soporte</a></li>
+                <li><a class="footer__link" href="">Información de compra</a></li>
+                <li><a class="footer__link" href="">Libro de reclamaciones</a></li>    
+            </ul>
+        </div>
+        <div class="footer-container">
+            <h2 class="footer__title">Redes</h2>
+            <ul class="footer__social">
+                <a class="footer__social-link" href=""><img src="./recursos/instagram.svg" alt=""></a>
+                <a class="footer__social-link" href=""><img src="./recursos/twitter.svg" alt=""></a>
+            </ul>
+        </div>
+        </div>
+        <span class="footer__copy"><p>© ACADEMLO. Derechos Reservados</p></span>
+    </footer>
+
+</body>
+</html>
